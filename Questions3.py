@@ -105,13 +105,84 @@
 #  Accept the number and check if it is a perfect number or not.
 
 
-n = int(input("Check your number is perfect or not :- "))
-sum = 0
-for i in range(1,n):
-    if n%i == 0:
-       sum = sum + i
+# n = int(input("Check your number is perfect or not :- "))
+# sum = 0
+# for i in range(1,n):
+#     if n%i == 0:
+#        sum = sum + i
 
-if sum == n:
-   print("Your number is perfect")
-else:
-   print("Your number is not a perfect number")
+# if sum == n:
+#    print("Your number is perfect")
+# else:
+#    print("Your number is not a perfect number")
+
+
+
+
+# Check whether the number is prime or not
+
+# n = int(input("Check your number is prime or not:-"))
+
+# count = 0
+
+# for i in range(1,n+1):
+#     if n%i == 0:
+#         count = count + 1
+
+# if count == 2:
+#    print("Your number is prime")
+# else:
+#    print("Your number is not prime")
+
+
+
+
+# Reverse string without using the build function
+
+# a = "PANDIAN"
+
+# b = ""
+# for i in range(len(a)-1,-1,-1):
+#     b = b + a[i]
+
+# print(b)
+
+
+
+
+# Check string is Palindrome or not
+
+# a = "MADAM"
+
+# b = ""
+# for i in range(len(a)-1,-1,-1):
+#     b = b + a[i]
+   
+# if b == a:
+#    print("Your String is Palindrome")
+# else:
+#    print("Its not a Palindrome")
+
+
+
+
+
+# Count all letters, digits, and special symbols from a given string
+
+a = "sdfibs@#%^&&*()1231"
+
+char = 0
+dig = 0
+spchar = 0
+
+for i in a:
+    if i.isdigit():
+       dig += 1
+    elif i.isalpha():
+        char += 1
+    else: 
+       spchar += 1
+       
+print(f"Your digits are {dig}\nYour alphabets are {char}\nYpur special characters are {spchar}")          
+       
+

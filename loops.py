@@ -57,6 +57,9 @@
 
 # Break , Continue and  Pass
 
+# If break runs then else doesn't
+# If break does not runs then else runs
+
 for i in range(1,21):
     if i == 15:
       print("Break statement is executed")
