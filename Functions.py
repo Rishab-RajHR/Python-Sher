@@ -49,15 +49,23 @@
 
 # Palindrome function
 
-def palindrome(st):
-    rev = ""
-    for i in range(len(st)-1,-1,-1):
-        rev = rev + st[i]
+# def palindrome(st):
+#     rev = ""
+#     for i in range(len(st)-1,-1,-1):
+#         rev = rev + st[i]
         
-    if rev == st:
-        print("{st} is a Palindrome")
-    else:
-        print("{st} is not a Palindrome")
+#     if rev == st:
+#         print("{st} is a Palindrome")
+#     else:
+#         print("{st} is not a Palindrome")
         
-palindrome("NAMAN")
-palindrome("CURSOR")
+# palindrome("NAMAN")
+# palindrome("CURSOR")
+
+
+# Function means reusable block of code
+
+def hello():
+    return "hello how are you"
+
+print(hello())
