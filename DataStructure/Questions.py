@@ -51,7 +51,36 @@ print(f"Your largest number is {largest} at index {index}")
 
 
 # Find the second greatest element
+ 
+ 
+p = [12,16,13,19]
+
+largest = p[0]
+sec_largest = p[0]
+
+for m in p:
+    if m > largest:
+        sec_largest = largest
+        largest = m
+    elif m > sec_largest:
+        sec_largest = m
+        
+print(sec_largest, largest)
+
+
 
 
 
 # Check if List is sorted or not
+
+
+g = [12,13,14,15,16]
+
+for h in range(len(g)-1):
+    if g[h] < g[h+1]:
+        continue
+    else:
+        print("Your list is not sorted")
+        break
+else:
+    print("Your list is sorted")
