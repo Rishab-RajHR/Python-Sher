@@ -61,17 +61,3 @@ print(m)
 
 
 
-# Using the for loop to access the value
-
-g = [-45,67,12,-68,-69,34]
-
-print("Positive elements are")
-for c in g:
-    if c >= 0:
-        print(c)
-        
-print("Negative elements are")
-
-for c in g:
-    if c < 0:
-        print(c)
