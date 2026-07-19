@@ -11,4 +11,22 @@ d = {10:100, 20:200, 30:300, 40:400}
 # d[10] = 100
 # print(d)
 
-print(d[10])
+
+# Updating the value
+# d.update({50:500})
+# print(d)
+
+# d[10] = 100  # updating
+# d[50] = 500  # creating
+# del d[30]  # deleting
+
+
+# For iterating over dict
+
+d = {10:100,20:200,30:300,40:400}
+
+for i in d:
+    print(i)
+
+
+# print(d[10])
