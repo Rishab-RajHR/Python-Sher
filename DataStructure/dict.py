@@ -23,10 +23,53 @@ d = {10:100, 20:200, 30:300, 40:400}
 
 # For iterating over dict
 
-d = {10:100,20:200,30:300,40:400}
+# d = {10:100,20:200,30:300,40:400}
 
-for i in d:
-    print(i)
+# for i in d:
+#     print(i)
+#     print(d[i])   # For accessing the value
+    
+    
+# Another Method
+# for i in d.values():
+#     print(i)
 
 
 # print(d[10])
+
+
+# help(dict)  => Dictionary Methods
+
+
+# d = {10:100,20:200,30:300,40:400}
+
+# d.clear()
+
+
+
+# Shallow Copy and Deep Copy
+
+# Shallow Copy
+# a = [1,2,3,4,5]
+
+# b = a
+
+# b[0] = 100
+
+# print(a)
+
+
+# Deep Copy
+# a = [1,2,3,4,5]
+
+# b = a.copy()
+
+# b[0] = 100
+
+# print(a)
+
+
+d = {10: 100, 20: 200, 30:300, 40:400}
+
+print(d.items())
+
