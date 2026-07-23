@@ -77,7 +77,7 @@ def deleteFile():
     try:
        readfileandfolder()
        name = input('Which File you want to delete :- ')
-       p = Path('')
+       p = Path(name)
        
        if p.exists() and p.is_file():
           os.remove(p)
