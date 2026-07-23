@@ -1,11 +1,12 @@
 class Factory:
-    a = 12 # attribute
+    a = 12  # attribute
     
     def hello(self): #method
         print("How are you")
         
-    print("Hello how are you I am getting intialized")
-    
-print(Factory().a)
+obj = Factory()
 
-Factory().hello()
+# obj2 = Factory()   => We can make many objects
+
+# print(obj.a)
+print(obj.hello())
