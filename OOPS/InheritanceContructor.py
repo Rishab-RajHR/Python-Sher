@@ -8,6 +8,7 @@ class Animal:
 class Human(Animal):
    pass      
  
-person1 = Human("Alex")
+anima1 = Animal("Lion")  # Instance of main class
+person1 = Human("Alex")  # Instance of child class
 
 person1.show()
