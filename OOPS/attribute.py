@@ -22,3 +22,4 @@ class Animal:
 obj = Animal(12)
 
 obj.show()
+# obj.hello()  
