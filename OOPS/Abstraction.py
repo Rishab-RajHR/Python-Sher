@@ -13,6 +13,12 @@ class Square(abstract):
     def __init__(self,side):
         self.side = side
         
+    def perimeter(self):
+        print("I have created")
+        
+    def area(self):
+        print("I have created this")
+        
 class Circle(abstract):
     def __init__(self,radius):
         self.radius = radius
