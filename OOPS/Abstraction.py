@@ -24,3 +24,4 @@ class Circle(abstract):
         print("I have created this")
         
 obj = Circle(3)
+obj = Circle(3)
